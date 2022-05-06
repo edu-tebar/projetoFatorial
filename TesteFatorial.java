@@ -1,6 +1,7 @@
 class TesteFatorial{
 	public static void main(String [] args){
 		Fatorial fat = new Fatorial();
-		System.out.println(fat.calculo(5));
+		int res = fat.calculo(5);
+		System.out.println(res);
 	}
 }
